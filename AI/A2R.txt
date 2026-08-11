@@ -3,7 +3,32 @@
  module 1 : Introduction to AI to Generative AI 
 
  1.What is Artificial intelligent ?
+
+   -->Artificial intelligent is known as AI .
+   -->It is a technology that enable metchine or computer to think , learn and make decition like human .
+   -->EX-ChatGpt
+         Auto Drive Car 
+
  2.Ai vs machine Learning vs Deep Learning?
+  
+  AI :
+     -->make metchine intelligent .(Smart metchine)
+     -->It has brodest Concept .
+     -->It can use rule , logic , ml etc .
+     -->Ex - chatboox , robot .
+
+  METCHINE LEARNING :
+     -->Make metchine learn form a data .
+     -->It has sub set of an AI .
+     -->learn partern form a data .
+     -->Ex - Spam Email detection .
+  
+  DEEP LEARNING :
+     -->Use newral network to learn form large amount og adat .
+     -->It has sub ste of metchine learning.
+     -->Automaticly learn complex data .
+     -->EX - Fase recognisation , Advance spetch recognisation .
+
    a. What is structured and unstructured data ?
    b. When use of machine Learning ?
    c. What is meat tag ? what it use ? what is the impact before and after use of meta tag ?
