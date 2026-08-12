@@ -5,7 +5,8 @@
  1.What is Artificial intelligent ?
 
    -->Artificial intelligent is known as AI .
-   -->It is a technology that enable metchine or computer to think , learn and make decition like human .
+   -->It is a technology that enable metchine or computer to think ,
+       learn and make decition like human .
    -->EX-ChatGpt
          Auto Drive Car 
 
@@ -22,19 +23,70 @@
      -->It has sub set of an AI .
      -->learn partern form a data .
      -->Ex - Spam Email detection .
-  
+
+
+  b. When use of machine Learning ?
+     -->We use Machine Learning (ML) when we want a computer to learn patterns from data and make predictions or decisions,
+        instead of writing every rule manually.
+     -->EX - Identify spam email .
+             When there is a lot of data
+             Customer purchase history.
+             Recognizing faces in photos.
+             When we need predictions
+             Predicting house prices.
+             Detecting new types of spam or fraud.
+   
+
   DEEP LEARNING :
-     -->Use newral network to learn form large amount og adat .
+     -->Use newral network to learn form large amount of data .
      -->It has sub ste of metchine learning.
      -->Automaticly learn complex data .
      -->EX - Fase recognisation , Advance spetch recognisation .
 
    a. What is structured and unstructured data ?
-   b. When use of machine Learning ?
+     
+     structured data :
+     -->It has organised the fixed format that useually use row ,columns .(Exel sheet , data base format).
+     -->EX - bank tranction .
+             student record .
+    unstructured data :
+     -->When the data without fixed structured is unstructured data .
+     -->EX - Video, audio , immage , Email ,pdf etc..
+
+   
    c. What is meat tag ? what it use ? what is the impact before and after use of meta tag ?
+     
+   -->Meta tag is an html tag that provide information about webpage to browsers in search ingine .
+   -->It written in head section in html page .
+
    d. What is compute ?
+
+   -->Compute means the computing power or resources used by a 
+      computer to process data and perform tasks.
+   -->When you ask ChatGPT a question:
+      Your question → Computer/Server processes it → Answer
+      
  3.Tradicinal Al vs Generative AI ?
+
+   .Tradicinal AI :
+
+   -->perform specific predefine tasks .
+   -->useually it Works based on the rules ,patterns or trained model .
+   -->It mainly predict , clasifier and decide .
+   -->OutPut has limit to specific task .
+   -->EX - Spam email detection .
+
+   .Generative AI :
+
+   -->create a new contain .
+   -->They trained model to generate to originala -loooking model .
+   -->It mainly genarate images, video ,audio etc .
+   -->When the out put has creativity and generative .
+   -->EX - video genaration .
+
    a. What is Agentic AI ?
+   -->Agentic Ai is an Artificial inteligence system ,That can autonomusly palan ,
+       that can make decition and take application .
    b. What is token ? one token contain how many word ?(0.75 word)
       -->Token is primary unit of agentic AI .
  4.Discriminative models vs Generative Models ?       
