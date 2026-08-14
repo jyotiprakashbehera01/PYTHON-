@@ -89,7 +89,8 @@
        that can make decition and take application .
    b. What is token ? one token contain how many word ?(0.75 word)
       -->Token is primary unit of agentic AI .
- 4.Discriminative models vs Generative Models ?       
+ 4.Discriminative models vs Generative Models ?  
+         
  5.Types of generative AI ?
    a. Text generation 
    b. Images generation 
