@@ -17,7 +17,8 @@ resp = requests.get(
      # Bearer tail the server it has authorization token .
 )
 for model in resp.json()["data"]:
-    #The API response is usually JSON.JSON looks similar to Python dictionaries/lists.
+    #The API response is usually JSON.
+    # JSON looks similar to Python dictionaries/lists.
     print(model["id"])
 
  # output :
