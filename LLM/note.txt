@@ -36,3 +36,13 @@ API :(application Programing Interferences)
 ORM :(Object Relational Mapping)
 -->It has allows you to work with database with a progaraming language .
 -->SQL
+
+JSON :(JavaScript Object Notetion)
+-->It has light weight format that can used store & exchange bettween application .
+-->JSON :(DataType)
+String   → "Rahul"
+Number   → 25
+Boolean  → true / false
+Null     → null
+Object   → { ... }
+Array    → [ ... ]
