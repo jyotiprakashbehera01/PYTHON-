@@ -1,0 +1,38 @@
+OLLLAMA :
+-->Ollama is the platform for running , dowloding , reding and conecting with the Ai mode on your computer.
+-->basically it has a tool that  lets run AI/LLM model localy on your computer .
+
+HTTP model :
+GET     → Employee ki details dekho
+POST    → New employee add karo
+PUT     → Employee ki complete details update karo
+PATCH   → Employee ka sirf phone number update karo
+DELETE  → Employee ko remove karo
+
+MCP :(Model Context Protocol) :
+-->It has standard way to connect external tool's ,data & application .
+-->It has open protocal .
+How we can built MCP server :
+-->create python function .
+
+NLP :(Natural Language process):
+-->Computer understand and Generate human understandiing language .
+
+LLM :
+-->It has called as large language model .
+-->That trained on very large amount of text / data so it unserstood and genarate human like language .
+-->It has learn the partern of an language .
+
+SLM :
+-->It has called as Small Language Model .
+-->It has design to few ressorses to understand and genarate text .
+-->It has use less data and memmory .
+-->It has faster and efective than LLM .
+
+API :(application Programing Interferences)
+-->It has communicate with cint and server 
+-->It has status code .
+
+ORM :(Object Relational Mapping)
+-->It has allows you to work with database with a progaraming language .
+-->SQL

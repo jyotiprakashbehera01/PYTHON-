@@ -12,7 +12,7 @@ resp = requests.get(
      # this the API endpoint.
      # It give them specific model v1/models. 
      headers={"Authorization":f"Bearer{api_key}"}
-     # header conten t extra innformation abhove the http request .
+     # header conten t extra innformation abhove the http request/responce .
      # hear we send authorixzatio token .
      # Bearer tail the server it has authorization token .
 )
@@ -21,7 +21,7 @@ for model in resp.json()["data"]:
     print(model["id"])
 
  # output :
-#     deepseek-v4-pro:preview
+#deepseek-v4-pro:preview
 # minimax-m3
 # glm-5.2
 # gemma4:31b

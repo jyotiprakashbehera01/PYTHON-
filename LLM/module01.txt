@@ -1,0 +1,40 @@
+11 august 2026
+
+ module 1 : Introduction to AI to Generative AI 
+
+ 1.What is Artificial intelligent ?
+ 2.Ai vs machine Learning vs Deep Learning?
+   a. What is structured and unstructured data ?
+   b. When use of machine Learning ?
+   c. What is meat tag ? what it use ? what is the impact before and after use of meta tag ?
+   d. What is compute ?
+ 3.Tradicinal Al vs Generative AI ?
+   a. What is Agentic AI ?
+   b. What is token ? one token contain how many word ?(0.75 word)
+      -->Token is primary unit of agentic AI .
+ 4.Discriminative models vs Generative Models ?       
+ 5.Types of generative AI ?
+   a. Text generation 
+   b. Images generation 
+   c. Audio and Speech Generation 
+   d. Video generation 
+   e. What  is multi model AI 
+      --> Google Gemini
+   f. code generation 
+   g. Real-world-application 
+   h. Healthcare
+      -->summarize your medical history .
+      -->Insurance .(Scan your document)
+      -->
+   i. Finance
+   j. Education
+      -->
+   k. Manufacturing
+   L. Software development
+   m. Customer service
+ 6.Limitation Of Generative AI ?
+   -->Limitation are :
+   b. Hallucination , bias(Difference) and outdated knowledge ?
+   a. knowledge lab :
+ 7.Generative AI vs Agentic Ai ?
+ 8.What  is Open weight and open weight AI ?
