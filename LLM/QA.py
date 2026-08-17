@@ -56,12 +56,12 @@ headers = {"Authorization": f"Bearer {api_key}"}
 # Timeout
 # Wrong URL
 try:
-    response = requests.post(API_URL, headers=headers, json=request_data, timeout=180)
+    response = requests.post(API_URL, headers=headers, json=requests_data, timeout=180)
     response.raise_for_status()# It checed Did the HTTP request succeed?
     result = response.json()#The server sends a JSON response.
     #Python converts that response into a Python object, usually a dictionary.
 
-    content = result["message"]["content"].strip()
+    content = result["message"]["content"].strip()#This extracts the actual answer.
     content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
 
     print("Assistant:", content if content else "(empty response)")

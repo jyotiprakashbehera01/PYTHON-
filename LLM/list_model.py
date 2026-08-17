@@ -22,6 +22,8 @@ for model in resp.json()["data"]:
     print(model["id"])
 
  # output :
+
+ 
 #deepseek-v4-pro:preview
 # minimax-m3
 # glm-5.2
