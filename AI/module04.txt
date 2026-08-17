@@ -40,3 +40,23 @@ persona - adds behaviour and style - you are aptient python trainer who explains
 Contextual prompting - supplies situation specific info required to answr correctly
                      - Contextual prompting means giving the AI extra information (context) along with your question so that it can give a more accurate and relevant answer.
 Context = Extra information that helps AI understand your situation
+
+Prompt chaining - When the device workflow connect with the prompt .
+
+Self-consistency  - Where self consistency is the techniqu that  solve the questin  mulitple path
+                    and way then he present answer confidently .
+Decomposition of complex problems -Devide large problem into small parte/problem .
+Prompt templates - reusable prompts that works .
+Negative instructions - Tail the model what it should not to do .
+
+context_Enginearing  - is the deisgn and manageent of all information provided to the model at inference time .
+
+Context-Engineering process :
+-->Identify what information requard .
+-->Retrive only relevant information .
+-->move duplicate and irrelevant coontent .
+-->Place information in logical order .
+-->Separate trusted instruction for the untrusted data .
+-->Stay with the context window limit .
+-->present esential information accross turns .
+-->Validate whether the context supports the answer.
