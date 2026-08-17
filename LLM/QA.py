@@ -28,10 +28,49 @@ question = input("You: ").strip()
 #input("You: ") : When it asks the user .
 #strip() : remove unnessary blank space on satarting and ending .
 
-requests_data = {
+requests_data = {#It has the python dictionary .
         "model" : MODEL ,
          "messages": [ # it has the store messages and send the api is callled list .
              # When the list has content two role 1.system , 2.User .
-             
-         ]
+             {"role": "system", "content": SYSTEM_PROMPT},
+             {"role": "user", "content": question}
+             #The model needs to know who is saying what.
+         ],
+    "stream": False,#This controls how the response is returned.
+    "options": {#These are settings for the model.
+        "temperature": 0.2,
+        "num_predict": 300
+    }
 } 
+headers = {"Authorization": f"Bearer {api_key}"}
+
+
+
+
+# This means:
+# "Try to execute this code. If something goes wrong, handle the error."
+# API calls can fail because of:
+# Internet problem
+# Invalid API key
+# Server problem
+# Timeout
+# Wrong URL
+try:
+    response = requests.post(API_URL, headers=headers, json=request_data, timeout=180)
+    response.raise_for_status()# It checed Did the HTTP request succeed?
+    result = response.json()#The server sends a JSON response.
+    #Python converts that response into a Python object, usually a dictionary.
+
+    content = result["message"]["content"].strip()
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+
+    print("Assistant:", content if content else "(empty response)")
+
+except requests.exceptions.Timeout:
+    print("The request took too long. Try again or use a smaller model.")
+
+except requests.exceptions.ConnectionError:
+    print("Could not reach ollama.com. Check your internet connection.")
+
+except requests.exceptions.HTTPError:
+    print("API error:", response.status_code, response.text)
