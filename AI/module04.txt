@@ -1,0 +1,42 @@
+Module 4: Prompt Engineering and Context Engineering:
+
+What is prompt engineering? 
+-->It mean give the clear instruction to AI so that it understand the context
+
+Anatomy of an effective prompt: 
+-->Role + Objective + Context + Input + Constraints + Examples + Output format + Validation
+
+Prompt - A prompt is the instruction or question that you give to an AI to tell it what you want.
+        (You are pythn trainer teaching to beginners)
+Role - it tells the model what kind of expert/person it should behave.
+Objective - objective tells the model exactly what result is required
+            (it should or can dtsrat with explain, compare, summarise, classify, extract, validate, generate, rewrite, recommend, review)
+Context - context is background info thta helps the model understands the situation
+           (the learner are eng graduates, like this we need to start)
+Constraints - are the boundaries and rues that model must follow
+            (example - use fewer thatn 150 words)
+            (useful constraints include - word or token limit,
+             target audience, tone, required sections,
+             excluded topics, permitted sources,
+              no of examples, safety restrictions)             
+Examples - examles show AI what a correct answersshould look like
+           (with input and output)
+Output format - output format describes how the answer should b e presented
+-->Zero-shot prompting - zero shot prompting means asking the model to perform a task without giving an example
+-->One-shot prompting - means gviing one example before providing  atask
+-->Few-shot prompting - means providing mulitple input and output examples
+-->Instruction prompting - means explicitly tells the model what action to perform
+   example - summarise the topci in 3 bullet points
+             each bullet point fewer than 20 word, 
+             etcexplain one major idea
+    It work =it works well for summarisation, translation, extarction, reviewing, code genertaion, etc
+-->Persona prompting - assigns specific role to AI agent so that it behave accordingly
+
+Difference bettween role and persion :
+role - a role describes the function - you are a python trainer
+persona - adds behaviour and style - you are aptient python trainer who explains using examples
+
+
+Contextual prompting - supplies situation specific info required to answr correctly
+                     - Contextual prompting means giving the AI extra information (context) along with your question so that it can give a more accurate and relevant answer.
+Context = Extra information that helps AI understand your situation
