@@ -60,3 +60,8 @@ Context-Engineering process :
 -->Stay with the context window limit .
 -->present esential information accross turns .
 -->Validate whether the context supports the answer.
+
+
+Prompt injection awareness - Prompt injection is an attempt to manipulate an AI system through malicious or untrusted instructions.
+
+Prompt injection is an attempt to manipulate an AI system through malicious or untrusted instructions.
