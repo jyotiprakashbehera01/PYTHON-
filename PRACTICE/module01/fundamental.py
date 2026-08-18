@@ -13,3 +13,6 @@
 
 print("Hellow python")
 
+#Dynamic typing? 
+#-->Names are bound to objects whose types are checked at runtime
+# -->different things depending on the context:
