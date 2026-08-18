@@ -49,3 +49,5 @@ Array    → [ ... ]
 
 Endpoint :
 -->An endpoint is a specific URL where a client can access a particular resource or service on a server.
+
+
