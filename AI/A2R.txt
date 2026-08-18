@@ -87,10 +87,26 @@
    a. What is Agentic AI ?
    -->Agentic Ai is an Artificial inteligence system ,That can autonomusly palan ,
        that can make decition and take application .
-   b. What is token ? one token contain how many word ?(0.75 word)
+   b. What is token ? one token contain how many word ?
+      -->(0.75 word)
       -->Token is primary unit of agentic AI .
+
+
  4.Discriminative models vs Generative Models ?  
-         
+
+   Discriminative:
+   -->It has classify or predict them .
+   -->It learns boundary bettwen classes.
+   -->it has output leblae/prediction.
+   -->Ex -Spam or not spam .
+   -->SVM ,decition tree .
+   Generative:
+   -->It's genarate new data .
+   -->It learns how the data is distribute .
+   -->it output has new containt data .
+   -->EX-Genarate an email .
+   -->ChatGpt .
+
  5.Types of generative AI ?
    a. Text generation 
    b. Images generation 
@@ -115,7 +131,7 @@
    b. Hallucination , bias(Difference) and outdated knowledge ?
    a. knowledge lab :
  7.Generative AI vs Agentic Ai ?
- 8.What  is Open weight and open weight AI ? 
+ 8.What  is Open weight and close weight AI ? 
  
 
 
