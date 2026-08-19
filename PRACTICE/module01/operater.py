@@ -28,11 +28,28 @@ print(a//b)
 
 
 # COMPARESION OPERATER :
+
+print("Operater :")
+c = 20
+d = 21
+e = 20
+
 # == 
+print(c == e )
 # !=
+print(c!=d)
 # >
+print(d>e)
 # <
+print(d<e)
 # >=
+print(c>=e)
 # <=
+print(c <= e)
 
 
+
+# LOGICAL OPERATER :
+# AND
+# OR
+# NOT
