@@ -51,5 +51,7 @@ print(c <= e)
 
 # LOGICAL OPERATER :
 # AND
+age = 12
+print(age>=18 and age<=60)
 # OR
 # NOT
