@@ -9,10 +9,17 @@
 # AI/ML
 # Backend development
 # Scripting
-# Testing.
+# Testing. 
+# -->It has naming rule and indentatiion .
+# -->black formatter checks the python code .
+# -->flake eight check the python code 
+# -->write the code in three case Snake case ,camelCase ,F...Case, writeConstant vale =CASE
+
 
 print("Hellow python")
 
 #Dynamic typing? 
 #-->Names are bound to objects whose types are checked at runtime
 # -->different things depending on the context:
+#-->Python is sasly integrate with AI .
+# -->It store all data into memory RAM.
