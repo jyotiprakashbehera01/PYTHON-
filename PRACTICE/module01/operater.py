@@ -51,7 +51,28 @@ print(c <= e)
 
 # LOGICAL OPERATER :
 # AND
-age = 12
-print(age>=18 and age<=60)
+# age = 12
+# print(age>=18 and age<=60)
+age = int(input("Enter your age :"))
+
+has_id = True
+
+if age >= 18 and has_id:
+    print("You can Elizible to  vote")
+else:
+    print("You cannot elizible")
+
 # OR
+# z = 10
+
+# print(z > 20 or z < 15)
+
+day = "monday"
+
+if day == "Saturday" or day == "Sunday":
+    print("It's a weekend")
+else:
+    print("It's a working day")
+
+
 # NOT
