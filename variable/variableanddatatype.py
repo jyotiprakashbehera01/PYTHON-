@@ -12,7 +12,8 @@
 # print(list_var)
 # tuple_var = (1,2,3,"aryan", 4.5, False)
 # print(tuple_var[1])
-# set_var = {1,2,2,2,3,4,5,5,6}#it ontent proper aling ment and set value.
+# set_var = {1,2,2,2,3,4,5,5,6}  
+# it ontent proper aling ment and set value.
 # print(set_var)
 # dictionary_var = {"name": "Aryan",
 #                    "age": 20,
@@ -21,14 +22,16 @@
 # #it store key value.
 # print(dictionary_var["age"])
 
-# #add two variable 
+# #add two variable
 # # 1st approch
-# print(str_var +" "+ str(int_var)) 
-# #2nd approch. 
+# print(str_var +" "+ str(int_var))
+
+# #2nd approch .
+
 # print(f"{str_var}  {int_var}")
 
 
-#OPREARATIOR :
+# OPREARATIOR :
 
 
 # lets do operators in python - +,-,*,/,%,//,**
@@ -42,7 +45,7 @@
 # print(int_var1 / int_var2) # division
 # print(int_var1 % int_var2) # modulus
 # print(int_var1 // int_var2) # floor division
-# #print(int_var1 ** int_var2) # exponentiation
+# print(int_var1 ** int_var2) # exponentiation
 
 # logical and conditional operators in python - and, or, not, ==, !=, >, <, >=, <=  
 
@@ -53,7 +56,7 @@
 # lets do concditional statements example - if, elif, else and switch condition
 
 marks = int(input("Enter your marks: "))
-#using  if elase condition.
+# using  if elase condition.
 
 # if marks >= 90:
 #      print("Grade: A")
@@ -66,11 +69,11 @@ marks = int(input("Enter your marks: "))
 
 # lets do switch case statement in python using dictionary
 
-dict_1 = {
-     90: "Grade: A",
-     80: "Grade: B",
-     70: "Grade: C"
-}
+# dict_1 = {
+#      90: "Grade: A",
+#      80: "Grade: B",
+#      70: "Grade: C"
+# }
 
 # grade = dict_1.get(marks, "Grade: D")
 #  # lambda syntax is lambda arguments: expression
@@ -88,7 +91,6 @@ dict_1 = {
 
 
 # for i in list_1:
-
 #     if i == 5:
 #        continue
 #     print(i)
