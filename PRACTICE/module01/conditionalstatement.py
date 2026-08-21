@@ -74,6 +74,6 @@
 
 
 
-# if    Checks the first condition .
+#  if    Checks the first condition .
 # elif	Checks another condition if previous conditions are false .
 # else	Executes when all conditions are false .
