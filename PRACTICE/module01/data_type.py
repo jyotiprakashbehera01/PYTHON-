@@ -1,6 +1,6 @@
-#Data Type :
-#IT has Devided some part .
-#Data type is identity of value .
+# Data Type :
+# IT has Devided some part .
+# Data type is identity of value .
 
 # int
 # float

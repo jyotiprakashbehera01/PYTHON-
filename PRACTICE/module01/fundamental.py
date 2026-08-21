@@ -18,8 +18,8 @@
 
 print("Hellow python")
 
-#Dynamic typing? 
-#-->Names are bound to objects whose types are checked at runtime
+# Dynamic typing? 
+# -->Names are bound to objects whose types are checked at runtime
 # -->different things depending on the context:
-#-->Python is sasly integrate with AI .
+# -->Python is sasly integrate with AI .
 # -->It store all data into memory RAM.

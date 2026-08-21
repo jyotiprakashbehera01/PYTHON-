@@ -2,7 +2,7 @@
 
 
 j = 10
-print (type(j))
+print(type(j))
 k = 10.1
 print(type(k))
 l = True
