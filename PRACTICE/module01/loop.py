@@ -1,6 +1,9 @@
 # Loop:
 # --> It used to repet bloock of code in multiple iteam .
-# -->in python content has 1.for loop = When yor repet somthing else for Sequence, and know her raange .
+# -->in python content has .
+ 
+# 1.for loop = When yor repet somthing else for Sequences, and know her raange
+
 # 2.while loop = When you want to repet somthing when the condition is true .
 
 # FOR LOOP:
