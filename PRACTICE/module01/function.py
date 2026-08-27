@@ -50,7 +50,7 @@
 # greet("Rahul")
 
 # KEYWORD ARGUMENT :
-# -->Insert the passing value according to position , we can specyfy the parameter name  .
+# -->Insert the passing value according to position , we can specyfy the name .
 # def student(name, age):
 #     print(name)
 #     print(age)
@@ -60,7 +60,7 @@
 
 
 # *args :
-# -->Args is use to when we dont know how many positional argument will be passed .
+# -->Args is use to when we dont know how many positional argument will be  .
 # -->*args allwos to function to accept multiple positional argument .
 # def add(*numbers):
 #     total = 0
@@ -97,9 +97,15 @@
 # student(name="jyoti", age=21, city="cuttack")
 
 
-def student(**details):
-    for key, value in details.items():
-        print(key, ":", value)
+# def student(**details):
+#     for key, value in details.items():
+#         print(key, ":", value)
 
 
-student(name="Rahul", age=21, course="Python")
+# student(name="Rahul", age=21, course="Python")
+
+
+# | Syntax     | Used for                      | Inside function |
+# | ---------- | ----------------------------- | --------------- |
+# | `*args`    | Multiple positional arguments | Tuple           |
+# | `**kwargs` | Multiple keyword arguments    | Dictionary      |
