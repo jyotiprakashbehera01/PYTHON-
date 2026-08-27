@@ -1,7 +1,7 @@
 # Loop:
 # --> It used to repet bloock of code in multiple iteam .
 # -->in python content has .
- 
+
 # 1.for loop = When yor repet somthing else for Sequences, and know her raange
 
 # 2.while loop = When you want to repet somthing when the condition is true .
@@ -104,17 +104,13 @@
 #     print(i)
 
 
-
 # Q.1 check the number is even or odd ?
 
-for i in range(1,10):
+for i in range(1, 10):
     if i % 2 == 0:
-        print(i,"is Even")
+        print(i, "is Even")
     else:
-        print(i,"is odd")
-
-
-
+        print(i, "is odd")
 
 
 # for	--> Repeat for each item/range
