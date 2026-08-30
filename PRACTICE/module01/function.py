@@ -115,13 +115,51 @@
 
 # -->Scope defines where a variable can be accessed in a Python program.
 # -->Python use  the LEGB rule find the variable .
-x = 10  # Global
 
 
-def test():
-    x = 20  # Local
-    print(x)
+# x = 10  # Global
 
 
-test()  # 20
-print(x)  # 10
+# def test():
+#     x = 20  # Local
+#     print(x)
+
+
+# test()  # 20
+# print(x)  # 10
+
+
+# Lambda Function :
+
+# --> A lambda function is a Small anonymous function written in single line .
+# Syntax :
+# lambda arguments : Expression
+
+# find square of number :
+
+# square = lambda x: x * x
+
+# print(square(5))  # 25
+
+
+# # add two number :
+
+# add = lambda a, b: a + b
+# print(add(10, 20))
+# # 30
+
+
+# Recursion :
+
+# -->Recaursion is a function call it self to solve a problem .
+# -->A recursive function must be have a base condition to stop the recursion .
+
+
+def countdown(n):
+    if n == 0:
+        return
+    print(n)
+    countdown(n - 1)
+
+
+countdown(15)
