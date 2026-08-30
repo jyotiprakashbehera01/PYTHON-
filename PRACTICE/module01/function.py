@@ -109,3 +109,19 @@
 # | ---------- | ----------------------------- | --------------- |
 # | `*args`    | Multiple positional arguments | Tuple           |
 # | `**kwargs` | Multiple keyword arguments    | Dictionary      |
+
+
+# Scope :
+
+# -->Scope defines where a variable can be accessed in a Python program.
+# -->Python use  the LEGB rule find the variable .
+x = 10  # Global
+
+
+def test():
+    x = 20  # Local
+    print(x)
+
+
+test()  # 20
+print(x)  # 10
