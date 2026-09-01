@@ -1,5 +1,5 @@
 # LIST :
-# --> A list an order of an mutable collection that can store multiple value and allows duplicate element .
+# --> A list an order of an mutable collection that can store multiple value & allows duplicate element .
 # --> List is the collection of value store in single variable .
 # -->It has mentains  the order of element .
 # -->It has mutable(when the element can be changed) .

@@ -41,3 +41,6 @@ print(data.count(20))
 data = (10, 20, 30)
 
 print(data.index(20))
+
+
+
