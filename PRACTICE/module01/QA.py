@@ -159,16 +159,39 @@ print("Sum of digits =", sum)
 # print("Number of vowel:", count)
 
 
+# # Reverse a string ?
 
+# text = input("Enter a string: ")
 
-# Reverse a string ?
-
-
-text = input("Enter a string: ")
-
-reverse = text[::-1] 
+# reverse = text[::-1] 
 # ::-1 mean check string into end to beginning .
 
-print("Reverse String: ", reverse)
+# print("Reverse String: ", reverse)
 
 
+# Find maximum element in a list ?
+
+numbers = [10, 20, 30, 40, 50]
+
+maximum = max(numbers)
+
+print("maximum element: ", maximum)
+
+# Remove duplicates from a list ?
+
+number = [10, 10, 10, 20, 30, 40, 40, 80, 70]
+
+unique = list(set(number))
+
+print("List without duplicates:", unique)
+
+# Count frequency of elements ?
+
+numbers = [10, 20, 10, 30, 20, 10]
+
+frequency = {}
+
+for num in numbers:
+    frequency[num] = frequency.get(num, 0) + 1
+
+print(frequency)
