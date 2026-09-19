@@ -136,7 +136,7 @@ else:
 
 # Find sum of digits ?
 num = 1234
-
+# 10
 sum = 0
 
 while num > 0:
@@ -145,3 +145,15 @@ while num > 0:
     num = num // 10
 
 print("Sum of digits =", sum)
+
+# Count vowels in a string ?
+
+text = input("Enter your string: ")
+
+count = 0
+
+for char in text:
+    if char.lower() in "aeiou":
+        count += 1
+
+print("Number of vowel:", count)
