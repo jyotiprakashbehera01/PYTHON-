@@ -148,12 +148,27 @@ print("Sum of digits =", sum)
 
 # Count vowels in a string ?
 
-text = input("Enter your string: ")
+# text = input("Enter your string: ")
 
-count = 0
+# count = 0
 
-for char in text:
-    if char.lower() in "aeiou":
-        count += 1
+# for char in text:
+#     if char.lower() in "aeiou":
+#         count += 1
 
-print("Number of vowel:", count)
+# print("Number of vowel:", count)
+
+
+
+
+# Reverse a string ?
+
+
+text = input("Enter a string: ")
+
+reverse = text[::-1] 
+# ::-1 mean check string into end to beginning .
+
+print("Reverse String: ", reverse)
+
+
