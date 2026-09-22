@@ -1,7 +1,7 @@
-# Problem 3: Designing a Garden 
-# A gardener wants to know the amount of fencing and grass required for a rectangular garden. 
-# Create a program that asks for the length and breadth of the garden, 
-# calculates both the area and the perimeter, and displays the results. 
+# Problem 3: Designing a Garden
+# A gardener wants to know the amount of fencing and grass required for a rectangular garden.
+# Create a program that asks for the length and breadth of the garden,
+# calculates both the area and the perimeter, and displays the results.
 
 # program to calculate fencing and grass requared for a rectangulart garden ?
 
