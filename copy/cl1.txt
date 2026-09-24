@@ -1,0 +1,17 @@
+. Python
+--> It is a programing language usually used for backend
+
+. Java Script
+--> It is mainly used to write the business logic, and communicate between frontend and backend
+
+. Node.js
+--> It is a backend js framework, it has large ecosystem, npm(Node Package Manager)
+
+. MongoDB
+--> It is a non-relational DB used to work with unstructured data like (JSON, Docx, etc)
+
+. Agentic/Generative AI
+--> AI agents process your sentences in form of tokens not words(1 Token = 0.75 Words) The difficult the word, the more token it consumes
+--> AI agents uses transformer architecture
+--> Agentic AI- works as a Human Feedback Loop Mechanism
+--> Generative AI- works like dependent on prompt generates the next token
