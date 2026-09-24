@@ -126,7 +126,7 @@ function_name()
 #     print(f"Hello, {a+b}!")
 # sample(2,5)
 
-# def sample(*args): # 'args' is used to take n number of arguments, args: tupple
+# def sample(*args): # 'args' is used to take n number of arguments, args: tuple
 #     for i in args:
 #         print(i)
 # sample(1, 2, 3, 4, 5, 6, 7)
